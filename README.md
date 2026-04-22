@@ -1,6 +1,6 @@
 # Doing Kubernetes CI/CD right with ArgoCD, Kustomize and Github Actions
 
-<img src="assets/banner.png">
+
 
 ## Why we need CI/CD?
 **CI/CD** reduces the gap between your system infrastructure and your development process thus allowing new features to be tested, deployed and delivered much more quickly. CI/CD is a must because:
@@ -274,13 +274,6 @@ Note that ArgoCD is gracefully removing old container while simultaneously addin
 - If you are using a public repo you can skip **Connecting Git repo with Argocd** part
 - If you need to pull image from a private registry you just need to [configure image pull secret for it](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/)
 
-## Author
-**Akshit Sadana <akshitsadana@gmail.com>**
 
-- Github: [@Akshit8](https://github.com/Akshit8)
-- LinkedIn: [@akshitsadana](https://www.linkedin.com/in/akshit-sadana-b051ab121/)
-
-## License
-Licensed under the MIT License
 
 
